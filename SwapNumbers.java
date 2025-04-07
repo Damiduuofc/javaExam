@@ -10,7 +10,6 @@ public class SwapNumbers {
 
 		System.out.println("Before swapping : a = " + a + ", b = " + b);
 
-		// Swap logic without using a trid varible
 
 		a = a + b;
 		b = a - b;

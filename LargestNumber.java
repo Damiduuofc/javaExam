@@ -17,3 +17,18 @@ public class LargestNumber {
 	  System.out.println("The Largest number is: "+ latgest);
     }  
 }  
+
+// condition ? valueIfTrue : valueIfFalse
+
+/* First, it checks if a > b:
+
+If true, it then checks if a > c:
+
+If true, a is the largest
+If false, c is the largest
+
+
+If false (meaning b ≥ a), it then checks if b > c:
+
+If true, b is the largest
+If false, c is the largest */ 
