@@ -12,23 +12,16 @@ public class LargestNumber {
         
         System.out.print("Enter third number: ");  
         int c = scanner.nextInt();
+
+       System.out.print("Enter fourth number: ");
+        int d = scanner.nextInt(); 
 	  
-	  int latgest = ( a > b) ? ((a>c) ? a :c) : ((b > c) ? b : c);
-	  System.out.println("The Largest number is: "+ latgest);
+        int latgest1 = Math.max(Math.max(Math.max(a,b),c),d);
+        int largest2 = Math.max(Math.max(a, b), c);
+
+	  System.out.println("The Largest in 4 number is: "+ latgest1);
+	  System.out.println("The Largest in 3 number is: "+ largest2);
+
     }  
 }  
 
-// condition ? valueIfTrue : valueIfFalse
-
-/* First, it checks if a > b:
-
-If true, it then checks if a > c:
-
-If true, a is the largest
-If false, c is the largest
-
-
-If false (meaning b ≥ a), it then checks if b > c:
-
-If true, b is the largest
-If false, c is the largest */ 

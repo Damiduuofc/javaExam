@@ -8,7 +8,7 @@ public class SwapNumbers {
 		System.out.print("Enter second number: ");
 		int b = scanner.nextInt();
 
-		System.out.println("Before swapping : a = " + a + ", b = " + b);
+		System.out.println("Before swapping a:" + a + "b :" + b);
 
 
 		a = a + b;

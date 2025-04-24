@@ -7,7 +7,8 @@ public class MultiplicationTable {
 		int number = scanner.nextInt();
 
 		System.out.println("Multiplication table of " + number + ":");
-		for (int i = 1; i <= 10; i++ ){
+
+		for (int i = 1;i <= 10;i = i + 1){
 			System.out.println(number + " x " + i + " = " + (number * i));
 		}
 	}

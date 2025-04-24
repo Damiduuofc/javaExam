@@ -10,7 +10,7 @@ public class ReversNumber {
 		while (number != 0){
 			int digit = number % 10;
 			reverse = reverse * 10 + digit;
-			number /= 10;
+			number = number / 10;
 		}
 			System.out.println("Reversed number is : " + reverse );
 	}
